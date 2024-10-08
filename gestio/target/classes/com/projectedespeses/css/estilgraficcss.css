@@ -1,0 +1,7 @@
+.chart-bar .data0.chart-bar {
+    -fx-bar-fill: navy;
+}
+
+.chart-bar .data1.chart-bar {
+    -fx-bar-fill: yellow;
+}

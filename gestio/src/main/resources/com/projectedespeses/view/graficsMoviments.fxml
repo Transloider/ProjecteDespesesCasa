@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.projectedespeses.controller.GraficDespesesController">
+   <children>
+      <BarChart fx:id="barChart" layoutX="25.0" layoutY="25.0" prefHeight="550.0" prefWidth="750.0" style="-fx-background-color: white;" stylesheets="@../css/estilgraficcss.css">
+         <xAxis>
+            <CategoryAxis label="Mes" style="-fx-background-color: white;" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis label="Cost" style="-fx-background-color: white;" />
+         </yAxis>
+         <styleClass>
+            <String fx:value="data1" />
+            <String fx:value="column-header-background" />
+            <String fx:value="BarChart" />
+            <String fx:value="chart-bar" />
+         </styleClass>
+      </BarChart>
+   </children>
+</AnchorPane>
